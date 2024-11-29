@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="formulario.css">
+<body>
+    <header>
+        <h1>Pastelería Herencia</h1>
+        <p id="eslogan">Donde los sabores se convierten en arte</p>
+    </header>
+    <form action="formulario.php" method="post">
+    <fieldset>
+        <p><a id="form">Rellene el formulario</a></p>
+    <p>
+        <label for="nom">Nombre y Apellidos:</label>
+        <input type="text" maxlength="50"
+        name="nombre" required autofocus
+        id="nom">
+    </p>
+    <p>
+        <label for="Localidad">Localidad:</label>
+        <input type="text" maxlength="20"
+        name="loca" placeholder="Herencia"
+        id="loca" >
+    </p>
+    <p>
+        <label for="Usuario">Dirección:</label>
+        <input type="text" maxlength="20"
+        name="Usu" placeholder="Calle iglesia Nº8"
+        id="Usu">
+    </p>
+    <p>
+        <label for="Usuario">Codigo postal:</label>
+        <input type="text" maxlength="5"
+        name="CodPost" placeholder="13640"
+        id="CodPost">
+    </p>
+    <p>
+        <label for="telf">Telefono de contacto:</label>
+        <input type="telf" maxlength="9"
+        name="telf" required 
+        id="telf" placeholder="XXXXXXXXX">
+    </p>
+    <p>Como desea recibir el pedido</p>
+    <p>
+        <input type="radio" value="Pro"
+        id="pro" name="nivel">
+        <label for="Pro">Recoger en tienda</label>
+        <br>
+    </p>
+    <p>
+        <input type="radio" value="Ava"
+        id="ava" name="nivel" checked>
+        <label for="Ava">Enviar a la dirección proporcianada</label>
+        <br>
+    </p>
+    <p>
+
+        <label for="tc">Tartas de chocolate:</label>
+        <select name="tc" id="tc">
+        <option value="0" selected>0</option>    
+        <option value="1" >1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        </select>
+        </p>
+        <p>
+
+        <label for="cc">Cupcakes:</label>
+        <select name="cc" id="cc">
+        <option value="0" selected>0</option>    
+        <option value="1" >Pack de 4</option>
+        <option value="2">Pack de 8</option>
+        <option value="6">Pack de 20</option>
+        </select>
+        </p>
+        <p>
+
+        <label for="pf">Pastel de fresa:</label>
+        <select name="pf" id="pf">
+        <option value="0" selected>0</option>    
+        <option value="1" >1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        </select>
+        </p>
+        <p>
+
+    <p>
+        <label for="obs">Observaciones del pedido:</label>
+            <textarea name="obs"
+            cols="30" rows="2" 
+            id="obs"
+            placeholder="Escriba algo"></textarea>
+        </p>
+    <p>
+        <input type="radio"
+        id="info" name="info"
+        checked>
+        <label for="info">Recibir notificación el dia antes de recibir el pedido</label>
+    </p>
+
+    <!--Botones de envío y reset-->
+    <input type="submit" value="Enviar">
+    <input type="reset"
+    value="Borrar datos">
+</fieldset>
+</p>
+<a href="index.html" id="Vp">Volver a la pagina principal</a>
+</form>
+<footer id="contacto">
+    <p>&copy; 2024 Pastelería Herencai | Tel: 948 848 124 | Email: contacto@pasteleriaherencia.com</p>
+</footer>
+</body>
+</html>

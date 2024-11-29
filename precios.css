@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+
+
+
+body{
+    padding: left right 20px;
+    background-image:url(images/4.jpg);
+    background-size:cover;
+    background-attachment: fixed;    
+}
+h1{
+    font-family: "Pacifico", cursive;
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    padding: bottom 5px;
+
+}
+
+#fc {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.textoNormal{
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    line-height: 2;
+    padding: 30px;    
+}
+#contenedor-logo{
+    text-align: center;
+}
+#fotocarta{
+    width: 200px;
+    height: 200px;
+}
+#class{
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+table, td, th{
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse;
+    vertical-align: center;
+    width: 50%;
+    padding: 20px;
+}
+table{
+    background-color: cornsilk;
+    font-family: "Satisfy", cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+#categoria{
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf3e6;
+}
+
+header {
+    background-color: #d77a61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f3a683;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}

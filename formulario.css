@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Praise&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.aguilas.es/lc-cloud/adjuntos/comer/bd83a0.jpg');
+
+}
+h1{
+    color: white;
+    padding: 20px;
+}
+fieldset{
+    background-color: #e0b39e;
+    width: 500px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+header {
+    background-color: #d77a61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f3a683;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+.producto p {
+    color: #555;
+}
+
+footer {
+    background-color: #d77a61;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+
+}
+#img{
+    width: 200px;
+height: 150px;
+object-fit: cover;
+border-radius: 10px;
+}
+#form{
+ font-weight: bold;
+ font-size: 20px; 
+}
+#Vp{
+    margin-left: 20px;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
