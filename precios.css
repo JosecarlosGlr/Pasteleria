@@ -12,7 +12,7 @@ h1{
     font-family: "Pacifico", cursive;
     font-size: 3em;
     text-align: center;
-    color: darkgoldenrod;
+    color: #e0b39e;
     padding: bottom 5px;
 
 }
@@ -37,29 +37,31 @@ h1{
     height: 200px;
 }
 #class{
-    background-color: darkgoldenrod;
+    background-color: #e0b39e;
     font-size: 2em;
     text-shadow: 3px 3px white;
 }
 table, td, th{
-    border: 3px solid darkgoldenrod;
+    border: 3px solid #e49069;
     border-collapse: collapse;
     vertical-align: center;
     width: 50%;
     padding: 20px;
 }
 table{
-    background-color: cornsilk;
+    background-color: #e0b39e;
     font-family: "Satisfy", cursive;
     font-size: 1.5em;
     text-align: center;
     margin: auto;
     width: 60%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #categoria{
-    background-color: darkgoldenrod;
+    background-color:#e0b39e;
     font-size: 2em;
-    text-shadow: 3px 3px white;
 }
 body {
     font-family: Arial, sans-serif;
@@ -71,8 +73,8 @@ body {
 header {
     background-color: #d77a61;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 nav {
@@ -90,4 +92,25 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
+h1{
+    color: white;
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+}
+footer {
+    background-color: #d77a61;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 0%;
+
+}
+#eslogan{
+    font-family: "Pacifico";
+    font-size: 30px;
+}
+tr, td{
+    color: white;
 }

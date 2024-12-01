@@ -8,11 +8,17 @@ body {
 }
 h1{
     color: white;
-    padding: 20px;
     font-family: "Pacifico", cursive;
     font-size: 60px;
 }
-fieldset{
+#f1{
+    background-color: #e0b39e;
+    width: 500px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#f2{
     background-color: #e0b39e;
     width: 500px;
     padding-left: 20px;
@@ -126,4 +132,12 @@ a:hover {
 }
 label{
     font-family: "Pacifico";
+}
+#dond{
+    font-family: "Pacifico";
+    font-size: 30px; 
+}
+section{
+float: left;
+flex: 1;
 }

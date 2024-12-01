@@ -11,8 +11,14 @@
         <h1>Pastelería Herencia</h1>
         <p id="eslogan">Donde los sabores se convierten en arte</p>
     </header>
+    <nav>
+        <a href="index.html">Principal</a>
+        <a href="precios.html">Productos</a>
+        <a href="contacto.com">Contacto</a>
+    </nav>
     <form action="formulario.php" method="post">
-    <fieldset>
+    <fieldset id="f1">
+        <section>
         <p><a id="form">Rellene el formulario</a></p>
     <p>
         <label for="nom">Nombre y Apellidos:</label>
@@ -44,7 +50,7 @@
         name="telf" required 
         id="telf" placeholder="XXXXXXXXX">
     </p>
-    <p>Como desea recibir el pedido</p>
+    <label><p>Como desea recibir el pedido</p></label>
     <p>
         <input type="radio" value="Pro"
         id="pro" name="nivel">
@@ -108,9 +114,9 @@
     <input type="reset"
     value="Borrar datos">
 </fieldset>
-</p>
-<a href="index.html" id="Vp">Volver a la pagina principal</a>
+</section>
 </form>
+<section>
 <footer id="contacto">
     <p>&copy; 2024 Pastelería Herencai | Tel: 948 848 124 | Email: contacto@pasteleriaherencia.com</p>
 </footer>
