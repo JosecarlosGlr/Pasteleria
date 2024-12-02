@@ -4,7 +4,7 @@
 
 body{
     padding: left right 20px;
-    background-image:url(images/4.jpg);
+    background-image:url("https://www.aguilas.es/lc-cloud/adjuntos/comer/bd83a0.jpg");
     background-size:cover;
     background-attachment: fixed;    
 }
@@ -112,4 +112,13 @@ footer {
 }
 tr, td{
     color: white;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://www.aguilas.es/lc-cloud/adjuntos/comer/bd83a0.jpg');
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
